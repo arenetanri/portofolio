@@ -1,12 +1,13 @@
 # Alexandrene Tanri — Engineering Portfolio
 
-Fresh GitHub Pages package.
+This build is intentionally **flat** for GitHub Pages.
 
-Upload these four items to the repository root:
+There is no `assets/` folder. Upload every file from this folder directly into the
+root of the `arenetanri.github.io` repository.
 
-- `assets/`
-- `index.html`
-- `script.js`
-- `style.css`
+Required GitHub Pages settings:
+- Branch: `main`
+- Folder: `/ (root)`
 
-All project media and the resume are inside `assets/`.
+The project images, portrait, keyboard photos, résumé, HTML, CSS, and JavaScript all
+live at the same level so GitHub's browser uploader cannot flatten or lose an assets folder.
